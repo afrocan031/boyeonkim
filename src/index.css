@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +9,19 @@
 
 body {
   height: 100vh;
-  /* min-width: 320px; */
+  min-width: 320px;
   background: #161513;
   color: white;
   font-family: 'outfit';
   /* margin: 0; */
   /* display: flex; */
+}
+
+@media (max-width: 768px) {
+  html, body {
+    width: 100vw;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
 }

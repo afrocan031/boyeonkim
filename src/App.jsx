@@ -1,23 +1,21 @@
-import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
-import About from './Components/About/About'
-import Service from './Components/Services/Services'
-import MyWork from './Components/MyWork/MyWork'
-import Contact from './Components/Contact/Contact'
-import Footer from './Components/Footer/Footer'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home.jsx";
+import Project1 from "./pages/projects/Project1.jsx";
+import Project2 from "./pages/projects/Project2.jsx";
+import Project3 from "./pages/projects/Project3.jsx";
+import ScrollToTop from "./Components/ScrollToTop.jsx";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <About />
-      <Service />
-      <MyWork />
-      <Contact />
-      <Footer />
-    </div>
+      <Router>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/project1" element={<Project1 />} />
+          <Route path="/project2" element={<Project2 />} />
+          <Route path="/project3" element={<Project3 />} />
+        </Routes>
+      </Router>
   )
 }
 

@@ -38,21 +38,20 @@ const Contact = () => {
     <div id='contact' className='contact'>
         <div className="contact-title">
             <h1>Get in touch</h1>
-            <img src={theme_pattern} alt="" />
         </div>
         <div className="contact-section">
             <div className="contact-left">
                 <h1>Let's talk</h1>
-                <p>I'm currently available to take on new project, ... I'm currently available to take on new project, ...I'm currently available to take on new project, ...I'm currently available to take on new project, ...</p>
+                <p>I’m ready to start right away and look forward to hearing from you.</p>
                 <div className='contact-details'>
                     <div className="contact-detail">
-                        <img src={main_icon} alt="" /><p>greatstackdev@gmai.com</p>
+                        <img src={main_icon} alt="" /><p>tanisha0523@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={call_icon} alt="" /><p>+772-825-5435</p>
+                        <img src={call_icon} alt="" /><p>+17789566675</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={location_icon} alt="" /><p>CA, Unite State</p>
+                        <img src={location_icon} alt="" /><p>British Columbia, CA</p>
                     </div>
                 </div>
             </div>

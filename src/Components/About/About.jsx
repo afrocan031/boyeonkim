@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
+import profile_img from '../../assets/about_profile.png'
 
 
 function About() {
@@ -9,7 +9,6 @@ function About() {
     <div id='about' className='about'>
         <div className="about-title">
             <h1>About me</h1>        
-            <img src={theme_pattern} alt="" />
         </div>
         <div className="about-sections">
             <div className="about-left">
@@ -17,33 +16,35 @@ function About() {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>I've transformed my life and can do the same for you</p>
-                    <p>I’m a master coach, best-selling author and a passionate speaker. I’m the founder of the first women-only hedge fund, special counsellor in many corporations across the globe. I’ve found balance between work and life, now I’m a totally happy person, loving mother, inspiring speaker and writer, and firm investor,</p>
+                    <p>At the heart of my work is people.
+I strive to understand individuals deeply and design experiences that bring them joy and satisfaction.</p>
+                    <p>With a sharp sense for changing human behavior and trends, I combine the mindsets of a UX designer, entrepreneur, and retail service provider. I listen actively, extract meaningful insights, and turn them into inspiring design ideas. I'm a passionate explorer of people, patterns, and possibilities.</p>
                 </div>
                 <div className="about-skills">
-                    <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>React JS</p><hr style={{width:"70%"}} /></div>
-                    <div className="about-skill"><p>Javascript</p><hr style={{width:"60%"}} /></div>
-                    <div className="about-skill"><p>Next JS</p><hr style={{width:"50%"}} /></div>
+                    <div className="about-skill"><p>User Research</p><hr style={{width:"80%"}} /></div>
+                    <div className="about-skill"><p>Wireframe</p><hr style={{width:"90%"}} /></div>
+                    <div className="about-skill"><p>Data analyzing</p><hr style={{width:"60%"}} /></div>
+                    <div className="about-skill"><p>Web language</p><hr style={{width:"50%"}} /></div>
                     
                 </div>
             </div>
         </div>
         <div className="about-achievements">
             <div className="about-achievement">
-                <h1>10+</h1>
+                <h1>5+</h1>
                 <p>YEARS OF EXPERIENCE</p>
             </div>
             <hr />
             <div className="about-achievement">
-                <h1>90+</h1>
+                <h1>15+</h1>
                 <p>PROJECTS COMPLETED</p>
             </div>
             <hr />
             <div className="about-achievement">
-                <h1>15+</h1>
-                <p>HAPPY CLIENTS</p>
+                <h1>A'</h1>
+                <p>5YEARS FEEDBACK</p>
             </div>
+
         </div>
     </div>
   )

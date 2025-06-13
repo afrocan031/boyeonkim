@@ -28,7 +28,9 @@
     display: flex;
     gap: 80px;
 }
-
+.about-left {
+    width: 60%
+}
 .about-right {
     display: flex;
     flex-direction: column;
@@ -39,8 +41,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
 }
 
 .about-skills {
@@ -68,7 +69,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #b415FF 106.28%);
+    background: linear-gradient(270deg, #b38df5 20%, #45f798 70%);
 }
 
 .about-skill:hover {
@@ -94,7 +95,7 @@
 .about-achievement h1 {
     font-size: 60px;
     font-weight: 700;
-    background: linear-gradient(270deg, #DF8908 50.4%, #B415FF 90%);
+    background: linear-gradient(270deg, #b38df5 30%, #45f798 70%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -172,3 +173,4 @@
         font-size: 16px;
     }
 }
+
